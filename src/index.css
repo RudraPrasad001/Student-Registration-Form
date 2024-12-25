@@ -1,0 +1,78 @@
+.studentData{
+  border: 2px solid #cccccc;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #e0e0e0;
+  justify-self: center;
+    width: 80%;
+}
+.root,body{
+  padding: 0px;
+  margin: 0px;
+  background-color: #ffe5d9;
+}
+.root{
+  height: 400px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  
+  margin-bottom: 60px;
+}
+.Register{
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 0;
+  position: absolute;
+  top:60%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border:1px solid #f0f0f0;
+  box-shadow: 2px 2px 2px #e0e0e0;
+  text-align: center;
+  
+}
+.Register h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3em;
+}
+.details{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-indent: 3px;
+  font-size: 24px;
+}
+#name,#age,p{
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#Submit{
+  font-size: 30px;
+  background-color: #2196F3;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+@media (max-width:480px){
+  .studentData{
+    
+    padding: 10px;
+  }
+  .Register{
+    padding: 10px;
+  }
+  .Register h1{
+    font-size: 2em;
+  }
+  .details{
+    font-size: 14px;
+  }
+  #name,#age,p{
+    font-size: 15px;
+  }
+  #Submit{
+    font-size: 15px;
+  }
+}
